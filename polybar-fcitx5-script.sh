@@ -80,4 +80,4 @@ react() {
 ##
 
 # Need --line-buffered to avoid messages being hold in buffer
-dbus-monitor --session destination=org.freedesktop.IBus | grep --line-buffered '65505\|65509' | react
+dbus-monitor --session destination=org.freedesktop.IBus | grep --line-buffered '65505\|65509\|65515' | react
